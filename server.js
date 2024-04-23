@@ -161,4 +161,4 @@ async function sendScheduledCampaigns() {
 
 
 // Run the scheduled campaign sender every minute
-setInterval(sendScheduledCampaigns, 10000);
+setInterval(sendScheduledCampaigns, 60000);
